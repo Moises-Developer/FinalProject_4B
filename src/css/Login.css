@@ -1,0 +1,14 @@
+.dPiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nap {
+    width: 120px;
+    height: 120px;
+    margin-right: 1vw;
+}
