@@ -21,3 +21,11 @@ nav img {
 .marginLeft {
     margin-left: 10px;
 }
+
+.flotar {
+    float: right;
+}
+
+button {
+    width: 400px;
+}

@@ -18,3 +18,14 @@ nav img {
     background-position: 50%;
 }
 
+.marginLeft {
+    margin-left: 10px;
+}
+
+.flotar {
+    float: right;
+}
+
+button {
+    width: 400px;
+}
