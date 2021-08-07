@@ -73,7 +73,7 @@
                     </div>
                 </div>
                 <div class="col-sm-7">
-                    <form class="form-horizontal" action="" method="POST" id="formulario">
+                    <form class="form-horizontal" action="../../Backend/Controllers/controladorPagPrinReq.php" method="POST" id="formulario">
                     <fieldset>
                             <br>
                             <legend class="text-center blanco"> INICIO DE SESION </legend>

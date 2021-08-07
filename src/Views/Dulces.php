@@ -1,4 +1,5 @@
 <?php 
+    include '../../Backend/Models/SeguridadLogin.php';
     include '../../Components/navegador.php';
 ?>
 <!DOCTYPE html>
@@ -26,13 +27,13 @@
             <div class="card mb-3" style="max-width: 540px;">
                 <div class="row g-0">
                     <div class="col-md-4">
-                        <img src="../../Images/Alimentos/Palomitas.png" class="img-fluid rounded-start" alt="...">
+                        <img src="../../Images/Alimentos/Dulcigomas.png" class="img-fluid rounded-start" alt="...">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
                             <h5 class="card-title">DulciGomas</h5>
-                            <p class="card-text">El valor de las palomitas es de $75 pesos, el cual contiene un bote especial
-                                de la pelicula que van a ver.
+                            <p class="card-text">El paquete de dulcigomas esta a $20 pesos cada uno, 
+                                y a la compra de 3 Dulcigomas el precio especial seria de $50 pesos...
                             </p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
@@ -45,13 +46,12 @@
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="../../Images/Alimentos/Refresco.png" class="img-fluid rounded-start" alt="...">
+                            <img src="../../Images/Alimentos/Pelon.png" class="img-fluid rounded-start" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title">Pelon Pelonrico</h5>
-                                <p class="card-text">El valor del refresco es de $32 pesos y puede elegir si es <strong>Coca-Cola</strong>
-                                    , si es <strong>Fanta</strong> o <strong>Sprite</strong> 
+                                <p class="card-text">El valor del pelon es de $15 pesos cada dulce de tamarindo...
                                 </p>
                                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                             </div>
@@ -64,12 +64,14 @@
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="../../Images/Alimentos/HotDog.png" class="img-fluid rounded-start" alt="..." style="height: 80%;">
+                            <img src="../../Images/Alimentos/Hersheys.png" class="img-fluid rounded-start" alt="..." style="height: 80%;">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title">Hershey's</h5>
-                                <p class="card-text">El valor de los HotDog es de $85 pesos y el plato tendra 2 HotDog</p>
+                                <p class="card-text">El valor del elefante hersheys es de $30 pesos cada uno y hay de 
+                                    diferentes sabores, chocolate blanco, chocolate negro y especial...
+                                </p>
                                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                             </div>
                         </div>
@@ -81,13 +83,13 @@
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="../../Images/Alimentos/Tostilocos.png" class="img-fluid rounded-start" alt="...">
+                            <img src="../../Images/Alimentos/Nachos.png" class="img-fluid rounded-start" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title">Nachos</h5>
-                                <p class="card-text">El valor de los TostiLocos es de $55 pesos y el empaque tendra
-                                    .700 gr de contenido.
+                                <p class="card-text">El valor de los nachos chicos es de $55 pesos 
+                                    y el de los nachos grandes el valor de los nachos es de $88 pesos...
                                 </p>
                                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                             </div>
@@ -100,13 +102,13 @@
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="../../Images/Alimentos/Crepa.png" class="img-fluid rounded-start" alt="..." style="height: 100%;">
+                            <img src="../../Images/Alimentos/Frapu.png" class="img-fluid rounded-start" alt="..." style="height: 100%;">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title">Frapuchino</h5>
-                                <p class="card-text">Este producto va costar $50 pesos cada una con los ingredientes 
-                                    que ustedes quieran...
+                                <p class="card-text">El Frapuchino va a costar a $95 pesos cada uno y este va a contener
+                                    su nombre integrado en el frapuchino...
                                 </p>
                                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                             </div>
@@ -119,13 +121,13 @@
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="../../Images/Alimentos/Cuernito.png" class="img-fluid rounded-start" alt="..." style="height: 100%;">
+                            <img src="../../Images/Alimentos/Smothing.png" class="img-fluid rounded-start" alt="..." style="height: 100%;">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title">Smothing</h5>
-                                <p class="card-text">Los cuernitos tienen el costo de $30 pesos por 2 cuernitos que contiene 
-                                    los platos...
+                                <p class="card-text">El smothing tiene un precio de $50 pesos cada uno
+                                    y solamente hay de un solo sabor que es Fresa...
                                 </p>
                                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                             </div>

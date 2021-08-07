@@ -1,4 +1,5 @@
 <?php 
+    include '../../Backend/Models/SeguridadLogin.php';
     include '../../Components/navegador.php';
 ?>
 <!DOCTYPE html>

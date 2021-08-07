@@ -17,8 +17,8 @@
                 </ul>
                 <!-- Aqui estan los botones de la derecha -->
                 <ul class="navbar-nav navbar-right">
-                    <li class="nav-item"><a href="" class="nav-link">Mas informacion</a></li>
-                    <li class="nav-item"><a href="../../Backend/Modelos/cerrarSesion.php" class="nav-link">Salir</a></li>
+                    <li class="nav-item"><a href="./MasInfo.php" class="nav-link">Mas informacion</a></li>
+                    <li class="nav-item"><a href="../../Backend/Models/cerrarSesion.php" class="nav-link">Salir</a></li>
                 </ul>
             </div>
         </div>
