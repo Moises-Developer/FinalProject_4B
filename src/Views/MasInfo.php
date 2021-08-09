@@ -21,7 +21,7 @@
     <br><br>
     <section class="container py-5">
         <div class="col-sm-5">
-            <form action="" class="row g-3 needs-validation formulario" method="POST" novalidate>
+            <form action="../../Backend/Controllers/controladorTarjeta.php" class="row g-3 needs-validation formulario" method="POST" novalidate>
                 <fieldset class="centrar-con">
                     <legend class="text-center legend">TARJETA DE CREDITO</legend>
                     <br><br>
@@ -40,7 +40,7 @@
                         <label for="validationCustomUsername1" class="form-label label">Ingresa numero de tarjeta: </label>
                         <div class="input-group has-validation">
                             <span class="input-group-text" id="inputGroupPrepend1"><strong>$</strong></span>
-                            <input type="number" class="form-control" placeholder="Ingresa numero de tarjeta..." id="validationCustomUsername1" aria-describedby="inputGroupPrepend1" required>
+                            <input type="number" name="numTarjeta" class="form-control" placeholder="Ingresa numero de tarjeta..." id="validationCustomUsername1" aria-describedby="inputGroupPrepend1" required>
                             <div class="invalid-feedback">
                                 Please choose a username.
                             </div>

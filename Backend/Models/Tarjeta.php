@@ -17,7 +17,7 @@ class Tarjeta {
             echo 'No se ingreso info a la variable';
         }else{
             try{
-                $query("");
+                $query = "INS_TARJETA ".$this->getNumTarjeta();
                 $res = sqlsrv_prepare($conn, $query);
                 if($res){
                     echo "Se esta preparando la info a la base de datos.\n";
