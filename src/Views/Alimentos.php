@@ -23,7 +23,7 @@
     </div>
     <br><br>
     <section class="row row-cols-1 row-cols-md-3 g-4 marginLeft py-5">
-        <div class="col">
+        <form method="POST" action="../../Backend/Controllers/controladorAlimentos.php" class="col">
             <div class="card mb-3" style="max-width: 540px;">
                 <div class="row g-0">
                     <div class="col-md-4">
@@ -40,7 +40,7 @@
                     </div>
                 </div>
             </div>
-            <button class="btn btn-outline-danger">Comprar</button>
+            <button name="idAlimento" value="7" type="submit" class="btn btn-outline-danger">Comprar</button>
             <br>
             <div class="col py-3">
                 <div class="card mb-3" style="max-width: 540px;">
@@ -60,7 +60,7 @@
                     </div>
                 </div>
             </div>
-            <button class="btn btn-outline-danger">Comprar</button>
+            <button name="idAlimento" value="8" type="submit" class="btn btn-outline-danger">Comprar</button>
             <div class="col py-3">
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
@@ -77,7 +77,7 @@
                     </div>
                 </div>
             </div>
-            <button class="btn btn-outline-danger">Comprar</button>
+            <button name="idAlimento" value="9" type="submit" class="btn btn-outline-danger">Comprar</button>
             <div class="col py-3">
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
@@ -96,7 +96,7 @@
                     </div>
                 </div>
             </div>
-            <button class="btn btn-outline-danger">Comprar</button>
+            <button name="idAlimento" value="10" type="submit" class="btn btn-outline-danger">Comprar</button>
             <div class="col py-3">
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
@@ -115,7 +115,7 @@
                     </div>
                 </div>
             </div>
-            <button class="btn btn-outline-danger">Comprar</button>
+            <button name="idAlimento" value="11" type="submit" class="btn btn-outline-danger">Comprar</button>
             <div class="col py-3">
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
@@ -134,7 +134,7 @@
                     </div>
                 </div>
             </div>
-            <button class="btn btn-outline-danger">Comprar</button>
+            <button name="idAlimento" value="12" type="submit" class="btn btn-outline-danger">Comprar</button>
             <br>
     </section>
 

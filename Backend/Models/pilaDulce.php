@@ -3,7 +3,7 @@
 class pilaDulce {
 
     private $data;
-    private $dulce;
+    private $Deletedulce;
     private $size;
 
     public function getData(){
@@ -31,17 +31,37 @@ class pilaDulce {
     }
 
     public function push($stack, $dulce){
+        if($stack == null){
+            $newN = new nodoDulces($dulce);
+            $stack = $newN;
+        }else{
+            $stack->setNext(push($stack->getNext(), $dulce));
+        }
 
+        return $stack;
     }
 
     public function size($stack){
         if($stack == null){
-            
+            return 0;
+        }else{
+            $size++;
+            return 1 + size($stack->getNext());
         }
     }
 
     public function pop($stack){
+        if($stack == null){
+            echo '<script>alert("Pila esta vacia");</script>';
+        }else{
+            if($stack->getNext() == null){
+                setDeletedulce($stack->getData());
+            }else{
+                $stack->setNext(pop($stack->getNext()));
+            }
+        }
 
+        return $stack;
     }
 }
 
